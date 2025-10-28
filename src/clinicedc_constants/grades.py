@@ -1,6 +1,0 @@
-GRADE0 = "0"
-GRADE1 = "1"
-GRADE2 = "2"
-GRADE3 = "3"
-GRADE4 = "4"
-GRADE5 = "5"
