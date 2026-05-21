@@ -10,6 +10,7 @@ from clinicedc_constants import (
     ANYTIME,
     AWAITING_RESULTS,
     COMPLETE,
+    CRF_ISSUE_DETECTED,
     DEAD,
     DECLINED,
     DIFFICULT,
@@ -311,6 +312,7 @@ DEATH_RELATIONSIP_TO_STUDY = (
 
 DOCUMENT_STATUS = (
     (INCOMPLETE, _("Incomplete (some data pending)")),
+    (CRF_ISSUE_DETECTED, _("QA issue detected (see CRF status comment)")),
     (COMPLETE, _("Complete")),
 )
 
